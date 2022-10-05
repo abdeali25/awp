@@ -1,0 +1,10 @@
+Create a new asp.net empty web application project 
+add new  item as empty web form
+place components\
+for Name add validation requiredvalidator and place next to textbox of name
+Add rangevalidator for age's textbox and set minvalue maxvalue and type as integer also set the errormessage
+Add custom validator for email's textbox,  set errormessage controltovalidate and validationExpression to internet email address
+add Regularexpression for contact
+add regular expression for roll no and for validationexpression [A-Z]\d{3}
+add validation summary below the submit button
+output screenshot with all errors

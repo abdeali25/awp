@@ -1,0 +1,30 @@
+create new  mepty web appliactoin 
+add new item -> Data -> add xml file
+inside xml:
+	<StudentsList>
+  		<Student>
+   		 	<Roll_no>A001</Roll_no>
+    			<Name>MA</Name>
+    			<Class>TYBScIT</Class>
+  		</Student>
+		<Student>Add more students like above</Student>
+	</StudentsList>
+
+create new webform and add below
+	stufdent data label 
+	new xmldata scource 
+	gridview
+	button
+	script manager very important
+	update pannel
+
+for xmldata source -> Configure data source-> Data file and choos ethe xml file->ok
+
+inside the button's code add:
+	DataSet ds = new DataSet();
+           	 ds.ReadXml(Server.MapPath("XMLFile1.xml"));
+           	 GridView1.DataSource = ds;
+           	 GridView1.DataBind();
+
+Place gridview1 inside update pannel and script manager above update pannel.
+place button below

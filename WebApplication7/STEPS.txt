@@ -1,0 +1,7 @@
+CREATE BLANK EMPTY WEB APP
+ADD NEW FOLDER TO PROJECT-> ADD CSV FILE TO THAT FOLDER
+ADD NEW WEB FORM TO THE PROJECT AND NAME IT AS mydatasheet
+add gridview from data -> small right arrow -> autoformat ->boundfield->add->header text-> name and add 2 more for qualification and interest
+create new datatable object
+create a avariable named csvpath and assign the path of the csv file
+note if you delete column delete its event also
